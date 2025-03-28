@@ -24,6 +24,8 @@ public class Principal {
         gregorianCalendar.set(2004, 10, 13);
         familiar.setFechaDeNacimiento(gregorianCalendar);*/
 
+        Persona personita = new Persona();
+
         System.out.println("Indica el número de personas por ingresar: ");
         int totalPersonas = scanner.nextInt();
         scanner.nextLine();
