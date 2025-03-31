@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String []args){
         Scanner scanner = new Scanner(System.in);
+
         /*
         Familiar familiar = new Familiar();
         //establecemos los valores de los atributos de la clase padre
@@ -25,6 +26,7 @@ public class Principal {
         familiar.setFechaDeNacimiento(gregorianCalendar);*/
 
         Persona personita = new Persona();
+        System.out.println("bienvenido al programa: ");
 
         System.out.println("Indica el número de personas por ingresar: ");
         int totalPersonas = scanner.nextInt();
