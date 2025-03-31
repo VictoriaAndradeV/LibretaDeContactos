@@ -113,5 +113,7 @@ public class Principal {
         //persona.setCedula("Victoria");
         // forma incorrecta: System.out.println(persona);estamos imprimiendo el objeto persona
         scanner.close();
+
+        System.out.printfln("Hola");
     }
 }
