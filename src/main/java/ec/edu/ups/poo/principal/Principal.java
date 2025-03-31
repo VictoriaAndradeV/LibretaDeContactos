@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String []args){
         Scanner scanner = new Scanner(System.in);
-        //deja de comentar tanto por favor
 
         /*
         Familiar familiar = new Familiar();
